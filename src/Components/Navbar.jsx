@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div
       style={{
-        padding: "20px",
+        padding: "10px",
         position: "fixed",
         top: 0,
         left: 0,

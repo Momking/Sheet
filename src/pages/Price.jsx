@@ -58,7 +58,7 @@ const MainContainer = styled.div`
 
   @media screen and (max-width: 970px) {
     flex-direction: column;
-    height: 110rem;
+    height: 100rem;
     .pricing-component {
       margin: 2rem 0;
     }

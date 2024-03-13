@@ -74,7 +74,7 @@ const MainContainer = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
   font-family: "Raleway", sans-serif;
   width: 20rem;
-  min-height: 40rem;
+  min-height: 35rem;
   height: max-content;
   background-color: #ffffff;
   display: flex;
@@ -185,6 +185,7 @@ const DataContainer = styled.div`
       }
       svg {
         margin-right: 0.5rem;
+        margin-left: 1.5rem;
         font-size: 0.8rem;
       }
       margin-bottom: 1rem;
