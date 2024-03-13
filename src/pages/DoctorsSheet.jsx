@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 
 const DoctorsSheet = () => {
-  useEffect(() => {
-    
-  })
+  useEffect(() => {});
 
   return (
     <div
@@ -15,9 +13,7 @@ const DoctorsSheet = () => {
       }}
     >
       <Navbar />
-      <div>
-
-      </div>
+      <div></div>
     </div>
   );
 };
