@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar";
 function Price() {
   return (
     <div>
-      <Navbar />
+      <Navbar destination={"/"}/>
       <MainContainer>
         <div className="pricing-component">
           <Pricing
@@ -32,7 +32,7 @@ function Price() {
               { text: "Basic interaction", value: true },
               { text: "Assets library", value: true },
             ]}
-            price={12000}
+            price={10000}
             duration="y"
             background="linear-gradient(to left, #ff0844 0%, #ffb199 100%);"
             shadow="#ffb199"

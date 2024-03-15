@@ -8,6 +8,7 @@ import DoctorFeatures from "./pages/DoctorFeatures";
 import RetailFeatures from "./pages/RetailFeatures";
 import Price from "./pages/Price";
 import About from "./pages/About";
+import ConfigureSettings from "./pages/ConfigureSettings";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Start />} />
       <Route path="/About" element={<About />} />
       <Route path="/DoctorsSheet" element={<DoctorsSheet />} />
+      <Route path="/DoctorsSheet/Configure" element={<ConfigureSettings />} />
       <Route path="/DoctorsSheet/Features" element={<DoctorFeatures />} />
       <Route path="/DoctorsSheet/Price" element={<Price />} />
       <Route path="/RetailorsSheet" element={<RetailorsSheet />} />

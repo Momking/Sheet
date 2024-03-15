@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 const RetailFeatures = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar destination={"/"}/>
     </div>
   );
 };

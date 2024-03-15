@@ -2,11 +2,11 @@ import React from "react";
 import BackButton from "./backButton";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({destination}) => {
   const liStyle = {
     display: "inline-block",
-    margin: "10px 20px",
-    fontSize: "18px",
+    margin: "1vh 2vh",
+    fontSize: "1.7vw",
     color: "white",
     cursor: "pointer",
   };
@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div
       style={{
-        padding: "10px",
+        padding: "1vh",
         position: "fixed",
         top: 0,
         left: 0,
@@ -23,9 +23,10 @@ const Navbar = () => {
         alignItems: "center",
         justifyContent: "space-between",
         backgroundColor: "#2d3748",
+        zIndex: "100",
       }}
     >
-      <BackButton />
+      <BackButton destination={destination}/>
       <ul style={{ flex: "1", listStyle: "none", textAlign: "center" }}>
         <Link to="/DoctorsSheet">
           <li style={liStyle}>Home</li>

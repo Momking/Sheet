@@ -10,7 +10,7 @@ const RetailorsSheet = () => {
         height: "100vh",
       }}
     >
-      <Navbar />
+      <Navbar destination={"/"}/>
     </div>
   );
 };
